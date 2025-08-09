@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Active Life Centre - Home</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+<body class="bg-body text-body">
+
+  <!-- Skip link -->
+  <a class="visually-hidden-focusable position-absolute top-0 start-0 p-2 bg-white" href="#main">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header-bar" role="banner">
+    <div class="container d-flex align-items-center justify-content-between py-2">
+      <!-- Brand logo & title -->
+      <a href="index.html" class="brand d-flex align-items-center gap-3 text-decoration-none" aria-label="Active Life Centre Home">
+        <img src="images/logo-active-life-centre.svg" alt="Active Life Centre logo" class="brand-logo" width="96" height="96">
+        <span class="brand-title text-white">ACTIVE LIFE CENTRE</span>
+      </a>
+
+      <!-- Top navigation -->
+      <nav class="utility-nav" aria-label="Top site links">
+        <ul class="list-unstyled d-flex align-items-center gap-4 mb-0">
+          <li><a class="util-link" href="about.html">About Us</a></li>
+          <li><a class="util-link" href="contact.html">Contact Us</a></li>
+          <li><a class="util-link" href="signin.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light main-nav" aria-label="Primary navigation">
+    <div class="container">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="primaryNav">
+        <ul class="navbar-nav me-auto">
+          <!-- Programs dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="programs.html" id="programsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Programs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="programsDropdown">
+              <li><a class="dropdown-item" href="program.html">Adults</a></li>
+              <li><a class="dropdown-item" href="program.html">Seniors</a></li>
+              <li><a class="dropdown-item" href="program.html">Youth</a></li>
+              <li><a class="dropdown-item" href="program.html">Children</a></li>
+              <li><a class="dropdown-item" href="program.html">Special Needs</a></li>
+            </ul>
+          </li>
+
+          <!-- Events dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Events &amp; Rentals</a>
+            <ul class="dropdown-menu" aria-labelledby="eventsDropdown">
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
+              <li><a class="dropdown-item" href="rentals.html">Rentals</a></li>
+            </ul>
+          </li>
+
+          <!-- Other main links -->
+          <li class="nav-item"><a class="nav-link" href="community.html">Community Highlights</a></li>
+          <li class="nav-item"><a class="nav-link" href="staff.html">Staff &amp; Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="membership.html">Membership</a></li>
+          <li class="nav-item"><a class="nav-link" href="health.html">Health &amp; Safety</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- Hero section -->
+    <section class="hero-wrap">
+      <div class="hero-media">
+        <picture>
+          <source
+            srcset="images/img-1-2560x.jpg 2560w,
+                    images/img-1-1600x.jpg 1600w,
+                    images/img-1-1200x.jpg 1200w,
+                    images/img-1-600x.jpg 600w"
+            sizes="100vw">
+          <img src="images/img-1.jpg"
+               alt="Children exercising outdoors with an instructor."
+               width="1200" height="675">
+        </picture>
+      </div>
+
+      <!-- Event card -->
+      <aside class="hero-card position-absolute top-50 end-0 translate-middle-y shadow"
+             style="margin-right:clamp(12px,4vw,48px);" aria-label="Special Event">
+        <img src="images/img-2.png" alt="Woman training with gloves." class="img-fluid" width="600" height="720">
+        <div class="panel text-white p-3 p-md-4">
+          <h3 class="h5 mb-1">Special Event Alert!</h3>
+          <p class="mb-3 text-white-50 small">Date: July 12, 2025</p>
+          <a class="btn btn-sm btn-light text-dark" href="events.html">See More ›</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Featured program -->
+    <section class="featured py-5 text-white">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-6">
+            <img class="img-fluid shadow-sm rounded" src="images/img-3.jpg" alt="Children stretching during a class." width="700" height="450" loading="lazy" decoding="async">
+            <div class="mt-3">
+              <img class="img-fluid shadow-sm rounded" src="images/img-4.png" alt="Instructor assisting with suspension training." width="700" height="450" loading="lazy" decoding="async">
+            </div>
+          </div>
+
+          <!-- Text content -->
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <div class="px-lg-3">
+              <h2 class="fw-bold mb-3 text-center text-lg-start">Featured Program and News Highlights</h2>
+              <p class="lead">We're excited to announce the launch of our Community Wellness Series, a monthly program focused on promoting mental and physical health for all ages. Each session includes expert-led workshops on nutrition, stress management, and low-impact fitness, tailored for beginners and seniors.</p>
+              <p>In June, we hosted a successful Mind &amp; Movement day that brought together over 100 community members for guided yoga, mindfulness sessions, and healthy cooking demos. Another cornerstone of the series is the Senior Strength &amp; Balance workshop, designed specifically for older adults to build strength and improve stability through safe, low-impact exercises.</p>
+              <div class="d-flex justify-content-center justify-content-lg-start">
+                <a class="btn btn-dark mt-2" href="programs.html">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming events -->
+    <section class="py-5 bg-body">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-2">Upcoming Events</h2>
+        <p class="text-body-secondary mb-4">Discover opportunities to stay active, learn new skills, and connect with your community.</p>
+
+        <div class="events-band">
+          <div class="row g-4 justify-content-center">
+            <!-- Event card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="card h-100 border-0 shadow overflow-hidden">
+                <img class="img-fluid" src="images/img-5.png" alt="Seminar audience discussing healthy living." width="600" height="800" loading="lazy" decoding="async">
+                <div class="p-3 text-start panel-blue">
+                  <h3 class="h4 text-white mb-1">Healthy Living Seminar</h3>
+                  <p class="text-white-50 mb-3">Gain insights into balanced nutrition and lifestyle habits.</p>
+                  <a class="btn btn-light btn-sm text-dark" href="events.html">Learn More</a>
+                </div>
+              </article>
+            </div>
+
+            <!-- Event card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="card h-100 border-0 shadow overflow-hidden">
+                <img class="img-fluid" src="images/img-6.jpg" alt="Person pushing a boxing bag outdoors." width="600" height="800" loading="lazy" decoding="async">
+                <div class="p-3 text-start panel-blue">
+                  <h3 class="h4 text-white mb-1">Outdoor Fitness Challenge</h3>
+                  <p class="text-white-50 mb-3">Test your endurance with friends in a supportive environment.</p>
+                  <a class="btn btn-light btn-sm text-dark" href="events.html">Learn More</a>
+                </div>
+              </article>
+            </div>
+
+            <!-- Event card 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="card h-100 border-0 shadow overflow-hidden">
+                <img class="img-fluid" src="images/img-7.jpg" alt="A community wellness fair in the park." width="600" height="800" loading="lazy" decoding="async">
+                <div class="p-3 text-start panel-blue">
+                  <h3 class="h4 text-white mb-1">Community Wellness Fair</h3>
+                  <p class="text-white-50 mb-3">Health screenings, demos, and workshops for all ages.</p>
+                  <a class="btn btn-light btn-sm text-dark" href="events.html">Learn More</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer py-4 text-white" role="contentinfo">
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <div class="col-md d-flex align-items-center">
+          <img src="images/logo-active-life-centre.svg" class="footer-logo me-2" width="80" height="80" alt="Active Life Centre logo">
+          <span class="fw-semibold">Active Life Centre</span>
+        </div>
+        <div class="col-md text-md-end text-white-50 small">© 2010 — 2025 • Privacy — Terms</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

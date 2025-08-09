@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Active Life Centre-Programs</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet" />
+</head>
+<body class="bg-body text-body page-programs">
+
+  <!-- Skip link -->
+  <a class="visually-hidden-focusable position-absolute top-0 start-0 p-2 bg-white" href="#main">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header-bar" role="banner">
+    <div class="container d-flex align-items-center justify-content-between py-2">
+      <!-- Brand -->
+      <a href="index.html" class="brand d-flex align-items-center gap-3 text-decoration-none" aria-label="Active Life Centre Home">
+        <img src="images/logo-active-life-centre.svg" alt="Active Life Centre logo" class="brand-logo" width="96" height="96">
+        <span class="brand-title text-white">ACTIVE LIFE CENTRE</span>
+      </a>
+      <!-- Utility nav -->
+      <nav class="utility-nav" aria-label="Top site links">
+        <ul class="list-unstyled d-flex align-items-center gap-4 mb-0">
+          <li><a class="util-link" href="about.html">About Us</a></li>
+          <li><a class="util-link" href="contact.html">Contact Us</a></li>
+          <li><a class="util-link" href="signin.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light main-nav" aria-label="Primary navigation">
+    <div class="container">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="primaryNav">
+        <ul class="navbar-nav me-auto">
+          <!-- Programs dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="programs.html" id="programsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">Programs</a>
+            <ul class="dropdown-menu" aria-labelledby="programsDropdown">
+              <li><a class="dropdown-item" href="program.html">Adults</a></li>
+              <li><a class="dropdown-item" href="program.html">Seniors</a></li>
+              <li><a class="dropdown-item" href="program.html">Youth</a></li>
+              <li><a class="dropdown-item" href="program.html">Children</a></li>
+              <li><a class="dropdown-item" href="program.html">Special Needs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="schedules.html">Schedules &amp; Booking</a></li>
+          <!-- Events dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Events &amp; Rentals</a>
+            <ul class="dropdown-menu" aria-labelledby="eventsDropdown">
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
+              <li><a class="dropdown-item" href="rentals.html">Rentals</a></li>
+            </ul>
+          </li>
+          <!-- Other nav links -->
+          <li class="nav-item"><a class="nav-link" href="community.html">Community Highlights</a></li>
+          <li class="nav-item"><a class="nav-link" href="staff.html">Staff &amp; Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="membership.html">Membership</a></li>
+          <li class="nav-item"><a class="nav-link" href="health.html">Health &amp; Safety</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- Hero / intro -->
+    <section class="programs-hero py-4 py-md-5" aria-labelledby="ch-title">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Intro text -->
+          <div class="col-12 col-lg-6">
+            <article class="panel-green p-4 p-md-5 h-100 rounded-3 shadow-sm">
+              <h1 id="ch-title" class="display-6 fw-bold text-white mb-3">Community Highlights</h1>
+              <p class="lead text-white-75 mb-3">
+                At Active Life Centre, our programs are rooted in community impact. We offer inclusive opportunities that bring people together—whether through fitness, wellness, or recreation.
+              </p>
+              <p class="text-white-75 mb-4">
+                From youth engagement to senior support, these highlights showcase how our programs foster connection, growth, and well-being across all ages.
+              </p>
+              <a class="btn btn-outline-light btn-lg" href="#youth">Explore</a>
+            </article>
+          </div>
+          <!-- Highlight cards -->
+          <div class="col-12 col-lg-6">
+            <div class="row g-4">
+              <!-- Card 1 -->
+              <div class="col-12 col-md-6">
+                <article class="overlay-card rounded-3 shadow h-100">
+                  <picture>
+                    <source srcset="images/img-p-1.jpg 800w, images/img-p-1.jpg 480w" sizes="(min-width:992px) 50vw, 100vw">
+                    <img src="images/img-p-1.jpg" class="w-100 h-100 object-fit-cover rounded-3" alt="Veteran with camouflage jacket and community badge" width="800" height="800" loading="lazy" decoding="async">
+                  </picture>
+                  <div class="overlay-panel">
+                    <h2 class="h4 text-white mb-2">Veteran Discounts</h2>
+                    <p class="text-white-75 small mb-3">Exclusive membership discounts for those who have served. Please present valid ID at registration.</p>
+                    <a class="btn btn-outline-light btn-sm" href="membership.html">Explore</a>
+                  </div>
+                </article>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-12 col-md-6">
+                <article class="overlay-card rounded-3 shadow h-100">
+                  <picture>
+                    <source srcset="images/img-p-2.jpg 800w, images/img-p-2.jpg 480w" sizes="(min-width:992px) 50vw, 100vw">
+                    <img src="images/img-p-2.jpg" class="w-100 h-100 object-fit-cover rounded-3" alt="Exercise studio prepared for a special event" width="800" height="800" loading="lazy" decoding="async">
+                  </picture>
+                  <div class="overlay-panel">
+                    <h2 class="h4 text-white mb-2">Special Events</h2>
+                    <p class="text-white-75 small mb-3">Year-round events that celebrate community, wellness, and active living.</p>
+                    <a class="btn btn-outline-light btn-sm" href="events.html">Explore</a>
+                  </div>
+                </article>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-12">
+                <article class="overlay-card rounded-3 shadow h-100">
+                  <picture>
+                    <source srcset="images/img-3-p.png 1200w, images/img-3-p.png 640w" sizes="(min-width:992px) 100vw, 100vw">
+                    <img src="images/img-3-p.png" class="w-100 h-100 object-fit-cover rounded-3" alt="Member sharing a personal wellness story" width="1200" height="800" loading="lazy" decoding="async">
+                  </picture>
+                  <div class="overlay-panel">
+                    <h2 class="h4 text-white mb-2">Personal Stories</h2>
+                    <p class="text-white-75 small mb-3">Inspiring wellness journeys from within our community.</p>
+                    <a class="btn btn-outline-light btn-sm" href="community.html">Explore</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Youth & family -->
+    <section id="youth" class="youth-family py-5" aria-labelledby="youth-title">
+      <div class="container">
+        <header class="text-center mb-4 mb-md-5">
+          <h2 id="youth-title" class="fw-bold text-white mb-2">Youth &amp; Family Activities</h2>
+          <p class="text-white-75 mb-0 lead">
+            Programs that encourage healthy habits, active play, and quality time together in a welcoming environment.
+          </p>
+        </header>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <article class="card program-card h-100 border-0 shadow overflow-hidden">
+              <picture>
+                <source srcset="images/img-p-4.png 800w, images/img-p-4.png 480w" sizes="(min-width:1200px) 25vw, (min-width:768px) 50vw, 100vw">
+                <img class="img-fluid" src="images/img-p-4.png" alt="Child practicing yoga with a parent" width="800" height="600" loading="lazy" decoding="async">
+              </picture>
+              <div class="p-3 program-panel">
+                <h3 class="h5 text-white mb-1">Kid-Friendly Yoga</h3>
+                <a class="btn btn-outline-light btn-sm mt-2" href="schedules.html">See More ›</a>
+              </div>
+            </article>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <article class="card program-card h-100 border-0 shadow overflow-hidden">
+              <picture>
+                <source srcset="images/img-p-5.png 800w, images/img-p-5.png 480w" sizes="(min-width:1200px) 25vw, (min-width:768px) 50vw, 100vw">
+                <img class="img-fluid" src="images/img-p-5.png" alt="Children diving into a pool during lessons" width="800" height="600" loading="lazy" decoding="async">
+              </picture>
+              <div class="p-3 program-panel">
+                <h3 class="h5 text-white mb-1">Swimming Lessons</h3>
+                <a class="btn btn-outline-light btn-sm mt-2" href="schedules.html">See More ›</a>
+              </div>
+            </article>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <article class="card program-card h-100 border-0 shadow overflow-hidden">
+              <picture>
+                <source srcset="images/img-6-p.png 800w, images/img-6-p.png 480w" sizes="(min-width:1200px) 25vw, (min-width:768px) 50vw, 100vw">
+                <img class="img-fluid" src="images/img-6-p.png" alt="Kids running during after-school activities" width="800" height="600" loading="lazy" decoding="async">
+              </picture>
+              <div class="p-3 program-panel">
+                <h3 class="h5 text-white mb-1">After-School Programs</h3>
+                <a class="btn btn-outline-light btn-sm mt-2" href="schedules.html">See More ›</a>
+              </div>
+            </article>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <article class="card program-card h-100 border-0 shadow overflow-hidden">
+              <picture>
+                <source srcset="images/img-p-7.png 800w, images/img-p-7.png 480w" sizes="(min-width:1200px) 25vw, (min-width:768px) 50vw, 100vw">
+                <img class="img-fluid" src="images/img-p-7.png" alt="Children doing a hands-on project at camp" width="800" height="600" loading="lazy" decoding="async">
+              </picture>
+              <div class="p-3 program-panel">
+                <h3 class="h5 text-white mb-1">Camps</h3>
+                <a class="btn btn-outline-light btn-sm mt-2" href="schedules.html">See More ›</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event recaps -->
+    <section class="event-recaps py-5" aria-labelledby="recaps-title">
+      <div class="container">
+        <h2 id="recaps-title" class="fw-bold mb-4">Event Photos &amp; Recaps</h2>
+        <div class="row g-4 align-items-start">
+          <!-- Text content -->
+          <div class="col-12 col-lg-5">
+            <p class="lead">Explore photos and highlights from recent events at Active Life Centre. See the community in action and catch up on memorable moments from fitness classes, workshops, and special celebrations.</p>
+            <p class="text-body-secondary mb-4">Stay inspired and connected with what’s happening around you.</p>
+            <p class="text-body-secondary">Experience the energy. Relive the moments.</p>
+          </div>
+          <!-- Media grid -->
+          <div class="col-12 col-lg-7">
+            <div class="row g-3">
+              <div class="col-12 col-md-8">
+                <figure class="media-thumb ratio ratio-4x3 rounded-3 overflow-hidden shadow position-relative">
+                  <picture>
+                    <source srcset="images/img-p-8.jpg 1200w, images/img-p-8.jpg 640w" sizes="(min-width:992px) 66vw, 100vw">
+                    <img src="images/img-p-8.jpg" alt="Audience seated during a talk at the centre" class="w-100 h-100 object-fit-cover" loading="lazy" decoding="async" width="1200" height="900">
+                  </picture>
+                  <a class="play-btn" href="gallery.html"><span class="visually-hidden">Play main recap video</span></a>
+                </figure>
+              </div>
+              <div class="col-6 col-md-4">
+                <figure class="media-thumb ratio ratio-4x3 rounded-3 overflow-hidden shadow position-relative">
+                  <picture>
+                    <source srcset="images/img-p-9.png 600w, images/img-p-9.png 360w" sizes="(min-width:768px) 33vw, 50vw">
+                    <img src="images/img-p-9.png" alt="Children smiling at a community event" class="w-100 h-100 object-fit-cover" loading="lazy" decoding="async" width="600" height="450">
+                  </picture>
+                  <a class="play-btn" href="gallery.html"><span class="visually-hidden">Play recap video 1</span></a>
+                </figure>
+              </div>
+              <div class="col-6 col-md-4 offset-md-8 offset-lg-0">
+                <figure class="media-thumb ratio ratio-4x3 rounded-3 overflow-hidden shadow position-relative">
+                  <picture>
+                    <source srcset="images/img-p-10.jpg 600w, images/img-p-10.jpg 360w" sizes="(min-width:768px) 33vw, 50vw">
+                    <img src="images/img-p-10.jpg" alt="People greeting each other at a gathering" class="w-100 h-100 object-fit-cover" loading="lazy" decoding="async" width="600" height="450">
+                  </picture>
+                  <a class="play-btn" href="gallery.html"><span class="visually-hidden">Play recap video 2</span></a>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer py-4 text-white" role="contentinfo">
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <div class="col-md d-flex align-items-center">
+          <img src="images/logo-active-life-centre.svg" class="footer-logo me-2" width="80" height="80" alt="Active Life Centre logo">
+          <span class="fw-semibold">Active Life Centre</span>
+        </div>
+        <div class="col-md text-md-end text-white-50 small">© 2010 — 2025 • Privacy — Terms</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
